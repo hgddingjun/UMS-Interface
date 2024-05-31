@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<body>
+<h1 style="color:#0F0">quick start</h1>
+<b style="color:#009;">usb connection:</b>
+set current data source as U disk<br/>
+<b style="color:#009;">mount to:</b>
+mount current data source<br/>
+<b style="color:#009;">quick create:</b>
+create a image with the given size,format as vfat,mount it,and use as U disk<br/>
+<b style="color:#900;"> ** </b>
+If the file you just copied can not be displayed immediately, try click 'close'/'launch' and 'umount'/'mount' continuously<br/>
+<h1 style="color:#0F0">U disk</h1>
+<b style="color:#009;">block device:</b>
+Representing a disk or partition, usually located in /dev/block or /dev.<br/>
+<b style="color:#009;">image file:</b>
+ a common file with all the original data of  a disk or partition.Usually named as *.img .An image file with a file system can be mounted like normal disk.<br/>
+<b style="color:#009;">data source:</b>
+source of the data in U disk,an image file or a block device is available .<br/>
+<b style="color:#009;">config path:</b>
+path this software relied.Like  /sys/class/android_usb/android0 or  /sys/devices/virtual/android_usb/android0.<br/>
+<b style="color:#009;">readonly:</b>may have no effect for some phone
+<br/>
+<h1 style="color:#0F0">mount</h1>
+<b style="color:#009;">data source:</b>
+source of the data to mount,an image file or a block device is available .<br/>
+<b style="color:#009;">mount point:</b>
+chose a directory to mount.<br/>
+<b style="color:#009;">file system:</b>
+will be automatically chose if not specified.<br/>
+<b style="color:#009;">mask:</b>
+used to set dmask and fmask.<br/>
+<b style="color:#900;"> ** </b>
+if 'mount namespace separation' in SuperSu is checked,this function may be impeded<br/>
+<h1 style="color:#0F0">create image</h1>
+<b style="color:#009;">format:</b>
+create file system for image file.<br/>
+can be used as a boot disk for PC when select a solved image .<br/>
+</body>
+</html>

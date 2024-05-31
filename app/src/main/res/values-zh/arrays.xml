@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_titles">
+        <item>快速启动</item>
+        <item>U盘</item>
+        <item>挂载</item>
+        <item>已挂载</item>
+        <item>新建镜像</item>
+        <item>帮助</item>
+    </string-array>
+    <string-array name="format">
+        <item>不格式化</item>
+        <item>格式化为vfat</item>
+    </string-array>
+    <string-array name="sort_modes">
+        <item>名称</item>
+        <item>日期</item>
+        <item>大小</item>
+        <item>类型</item>
+        <item>名称(降序)</item>
+        <item>日期(降序)</item>
+        <item>大小(降序)</item>
+    </string-array>
+    <string-array name="open_as">
+        <item>文本</item>
+        <item>音频</item>
+        <item>视频</item>
+        <item>图片</item>
+        <item>其他</item>
+    </string-array>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_main">
+    <item
+        android:id="@+id/action_sort"
+        android:orderInCategory="100"
+        android:title="@string/explorer_sort_way"
+        app:showAsAction="never" />
+    <item
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:id="@+id/action_set_as_home"
+        android:visible="false"
+        android:title="@string/explorer_set_home"/>
+    <item
+        android:id="@+id/action_close"
+        android:orderInCategory="100"
+        android:title="@string/explorer_close_tab"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/explorer_refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/explorer_exit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>
